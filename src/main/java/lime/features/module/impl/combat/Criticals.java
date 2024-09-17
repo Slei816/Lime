@@ -20,7 +20,7 @@ public class Criticals extends Module {
         super("Criticals", Category.COMBAT);
     }
 
-    private final EnumProperty mode = new EnumProperty("Mode", this, "Packet", "Packet", "Verus", "Visual");
+    private final EnumProperty mode = new EnumProperty("Mode", this, "PacketOld", "PacketOld", "Verus", "Visual");
     private final NumberProperty delay = new NumberProperty("Delay", this, 100, 1000, 750, 50);
 
     private final Timer timer = new Timer();
